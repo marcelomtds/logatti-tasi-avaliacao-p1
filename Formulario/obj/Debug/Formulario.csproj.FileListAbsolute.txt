@@ -1,0 +1,10 @@
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.csprojAssemblyReference.cache
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.Properties.Resources.resources
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Formulario.exe.config
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Formulario.exe
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Formulario.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.exe
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.MenuFormulario.resources
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.AlunoFormulario.resources
