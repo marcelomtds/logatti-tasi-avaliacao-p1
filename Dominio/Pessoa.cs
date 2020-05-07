@@ -2,11 +2,11 @@
 {
     public abstract class Pessoa
     {
-        protected int Id { get; set; }
-        protected string Cpf { get; set; }
-        protected string Nome { get; set; }
-        protected string Telefone { get; set; }
-        protected string Email { get; set; }
-        protected Endereco Endereco { get; set; }
+        public int Id { get; set; }
+        public string Cpf { get; set; }
+        public string Nome { get; set; }
+        public string Telefone { get; set; }
+        public string Email { get; set; }
+        public Endereco Endereco { get; set; }
     }
 }

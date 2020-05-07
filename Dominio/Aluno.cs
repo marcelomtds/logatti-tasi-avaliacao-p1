@@ -3,6 +3,6 @@
     public class Aluno : Pessoa
     {
         public string Ra { get; set; }
-        public Curso curso { get; set; }
+        public Curso Curso { get; set; }
     }
 }

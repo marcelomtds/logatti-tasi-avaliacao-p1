@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 
 namespace Conexao
 {
-    class SQLServer : IDisposable
+    public class SQLServer : IDisposable
     {
         private SqlConnection conexao;
         public SQLServer()
@@ -14,15 +14,27 @@ namespace Conexao
             conexao.Open();
         }
 
-        public void ExecutarComando(string query)
+        public int ExecutarComando(string query, bool retornarIdPersistido)
         {
+            if (retornarIdPersistido)
+            {
+                query += " SELECT SCOPE_IDENTITY();";
+            }
             var cmd = new SqlCommand
             {
                 CommandText = query,
                 CommandType = CommandType.Text,
                 Connection = conexao
             };
-            cmd.ExecuteNonQuery();
+            var retorno = cmd.ExecuteScalar();
+            if (retornarIdPersistido)
+            {
+                return int.Parse(retorno.ToString());
+            }
+            else
+            {
+                return 0;
+            }
         }
 
         public SqlDataReader ExecutarComandoComRetorno(string query)

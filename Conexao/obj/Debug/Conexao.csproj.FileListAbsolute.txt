@@ -1,0 +1,5 @@
+C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\bin\Debug\Conexao.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\bin\Debug\Conexao.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\obj\Debug\Conexao.csprojAssemblyReference.cache
+C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\obj\Debug\Conexao.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\obj\Debug\Conexao.pdb

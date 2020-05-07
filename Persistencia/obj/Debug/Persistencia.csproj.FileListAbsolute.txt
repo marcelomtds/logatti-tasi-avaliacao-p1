@@ -1,0 +1,10 @@
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\bin\Debug\Persistencia.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\bin\Debug\Persistencia.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\bin\Debug\Conexao.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\bin\Debug\Dominio.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\bin\Debug\Conexao.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\bin\Debug\Dominio.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\obj\Debug\Persistencia.csprojAssemblyReference.cache
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\obj\Debug\Persistencia.csproj.CopyComplete
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\obj\Debug\Persistencia.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Persistencia\obj\Debug\Persistencia.pdb

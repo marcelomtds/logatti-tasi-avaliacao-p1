@@ -8,3 +8,10 @@ C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.exe
 C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.pdb
 C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.MenuFormulario.resources
 C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.AlunoFormulario.resources
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Dominio.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Persistencia.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Conexao.dll
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Dominio.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Persistencia.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\bin\Debug\Conexao.pdb
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.csproj.CopyComplete

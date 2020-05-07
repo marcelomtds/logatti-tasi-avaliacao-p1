@@ -46,7 +46,7 @@
     <Compile Include="SQLServer.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="createTables.sql" />
+    <Content Include="CreateTables.sql" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
