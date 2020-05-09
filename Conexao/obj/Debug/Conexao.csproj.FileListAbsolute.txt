@@ -3,3 +3,8 @@ C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\bin\Debug\Conexao.pdb
 C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\obj\Debug\Conexao.csprojAssemblyReference.cache
 C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\obj\Debug\Conexao.dll
 C:\projetos\logatti\csharp\AvaliacaoP1\Conexao\obj\Debug\Conexao.pdb
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Conexao\bin\Debug\Conexao.dll
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Conexao\bin\Debug\Conexao.pdb
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Conexao\obj\Debug\Conexao.csprojAssemblyReference.cache
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Conexao\obj\Debug\Conexao.dll
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Conexao\obj\Debug\Conexao.pdb

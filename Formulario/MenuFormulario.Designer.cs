@@ -31,6 +31,9 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmiAluno = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiProfessor = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiCurso = new System.Windows.Forms.ToolStripMenuItem();
+            this.tsmiCursoProfessor = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,7 +50,10 @@
             // cadastroToolStripMenuItem
             // 
             this.cadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.tsmiAluno});
+            this.tsmiAluno,
+            this.tsmiProfessor,
+            this.tsmiCurso,
+            this.tsmiCursoProfessor});
             this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
             this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(69, 20);
             this.cadastroToolStripMenuItem.Text = "Gerenciar";
@@ -58,6 +64,28 @@
             this.tsmiAluno.Size = new System.Drawing.Size(180, 22);
             this.tsmiAluno.Text = "Aluno";
             this.tsmiAluno.Click += new System.EventHandler(this.tsmiAluno_Click);
+            // 
+            // tsmiProfessor
+            // 
+            this.tsmiProfessor.Name = "tsmiProfessor";
+            this.tsmiProfessor.Size = new System.Drawing.Size(180, 22);
+            this.tsmiProfessor.Text = "Professor";
+            this.tsmiProfessor.Click += new System.EventHandler(this.tsmiProfessor_Click);
+            // 
+            // tsmiCurso
+            // 
+            this.tsmiCurso.CheckOnClick = true;
+            this.tsmiCurso.Name = "tsmiCurso";
+            this.tsmiCurso.Size = new System.Drawing.Size(180, 22);
+            this.tsmiCurso.Text = "Curso";
+            this.tsmiCurso.Click += new System.EventHandler(this.tsmiCurso_Click);
+            // 
+            // tsmiCursoProfessor
+            // 
+            this.tsmiCursoProfessor.Name = "tsmiCursoProfessor";
+            this.tsmiCursoProfessor.Size = new System.Drawing.Size(180, 22);
+            this.tsmiCursoProfessor.Text = "Curso / Professor";
+            this.tsmiCursoProfessor.Click += new System.EventHandler(this.tsmiCursoProfessor_Click);
             // 
             // MenuFormulario
             // 
@@ -83,6 +111,9 @@
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem tsmiProfessor;
         private System.Windows.Forms.ToolStripMenuItem tsmiAluno;
+        private System.Windows.Forms.ToolStripMenuItem tsmiCurso;
+        private System.Windows.Forms.ToolStripMenuItem tsmiCursoProfessor;
     }
 }

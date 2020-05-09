@@ -43,7 +43,9 @@
   <ItemGroup>
     <Compile Include="AlunoPersistencia.cs" />
     <Compile Include="CursoPersistencia.cs" />
+    <Compile Include="CursoProfessorPersistencia.cs" />
     <Compile Include="EnderecoPersistencia.cs" />
+    <Compile Include="ProfessorPersistencia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

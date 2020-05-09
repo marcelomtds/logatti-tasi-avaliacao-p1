@@ -3,3 +3,8 @@ C:\projetos\logatti\csharp\AvaliacaoP1\Dominio\bin\Debug\Dominio.pdb
 C:\projetos\logatti\csharp\AvaliacaoP1\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
 C:\projetos\logatti\csharp\AvaliacaoP1\Dominio\obj\Debug\Dominio.dll
 C:\projetos\logatti\csharp\AvaliacaoP1\Dominio\obj\Debug\Dominio.pdb
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Dominio\bin\Debug\Dominio.dll
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Dominio\bin\Debug\Dominio.pdb
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Dominio\obj\Debug\Dominio.csprojAssemblyReference.cache
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Dominio\obj\Debug\Dominio.dll
+C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Dominio\obj\Debug\Dominio.pdb

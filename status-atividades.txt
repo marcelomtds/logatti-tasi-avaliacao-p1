@@ -1,14 +1,19 @@
-Definição da arquitetura básica da solução
-Definição do modelo relacional do banco de dados
-Criação dos scripts para geração das tabelas
-Criação do banco de dados
-Criação da solução
-Criação e implementacao do módulo conexão
-Criação e implementação do módulo dominio
-Criação do módulo persistência
-Criação do módulo formulário
-Implementação do menu principal
-Implementação da tela de gerenciar aluno
-Implementação da persistencia de aluno
-Implementação da persistencia de endereco
-Implementação da persistencia de curso
+Definição da arquitetura básica da solução           - 07/05/2020
+Definição do modelo relacional do banco de dados     - 07/05/2020
+Criação dos scripts para geração das tabelas         - 07/05/2020
+Criação do banco de dados                            - 07/05/2020
+Criação da solução                                   - 07/05/2020
+Criação e implementacao do módulo conexão            - 07/05/2020
+Criação e implementação do módulo dominio            - 07/05/2020
+Criação do módulo persistência                       - 07/05/2020
+Criação do módulo formulário                         - 07/05/2020
+Implementação do menu principal                      - 07/05/2020
+Implementação da tela de gerenciar aluno             - 07/05/2020
+Implementação da persistencia de aluno               - 07/05/2020
+Implementação da persistencia de endereco            - 07/05/2020
+Implementação da persistencia de curso               - 08/05/2020
+Implementação da persistencia de professor           - 08/05/2020
+Implementação da persistencia de curso_professor     - 08/05/2020
+Implementação da tela de gerenciar curso             - 09/05/2020
+Implementação da tela de gerenciar professor         - 09/05/2020
+Implementação da tela de gerenciar curso / professor - 09/05/2020
