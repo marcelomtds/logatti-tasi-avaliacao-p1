@@ -74,7 +74,6 @@
             // 
             // tsmiCurso
             // 
-            this.tsmiCurso.CheckOnClick = true;
             this.tsmiCurso.Name = "tsmiCurso";
             this.tsmiCurso.Size = new System.Drawing.Size(180, 22);
             this.tsmiCurso.Text = "Curso";

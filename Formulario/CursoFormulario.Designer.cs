@@ -66,7 +66,7 @@
             this.gbDadosPessoais.Controls.Add(this.lblNome);
             this.gbDadosPessoais.Location = new System.Drawing.Point(6, 8);
             this.gbDadosPessoais.Name = "gbDadosPessoais";
-            this.gbDadosPessoais.Size = new System.Drawing.Size(537, 111);
+            this.gbDadosPessoais.Size = new System.Drawing.Size(537, 102);
             this.gbDadosPessoais.TabIndex = 22;
             this.gbDadosPessoais.TabStop = false;
             this.gbDadosPessoais.Text = "Dados do Curso";
@@ -74,7 +74,7 @@
             // txtId
             // 
             this.txtId.Enabled = false;
-            this.txtId.Location = new System.Drawing.Point(6, 38);
+            this.txtId.Location = new System.Drawing.Point(6, 32);
             this.txtId.Name = "txtId";
             this.txtId.Size = new System.Drawing.Size(100, 20);
             this.txtId.TabIndex = 10;
@@ -90,7 +90,7 @@
             // 
             // txtHorarioFim
             // 
-            this.txtHorarioFim.Location = new System.Drawing.Point(132, 83);
+            this.txtHorarioFim.Location = new System.Drawing.Point(131, 71);
             this.txtHorarioFim.MaxLength = 5;
             this.txtHorarioFim.Name = "txtHorarioFim";
             this.txtHorarioFim.Size = new System.Drawing.Size(119, 20);
@@ -99,15 +99,15 @@
             // lblRa
             // 
             this.lblRa.AutoSize = true;
-            this.lblRa.Location = new System.Drawing.Point(129, 67);
+            this.lblRa.Location = new System.Drawing.Point(128, 55);
             this.lblRa.Name = "lblRa";
-            this.lblRa.Size = new System.Drawing.Size(70, 13);
+            this.lblRa.Size = new System.Drawing.Size(77, 13);
             this.lblRa.TabIndex = 8;
-            this.lblRa.Text = "* Horário Fim:";
+            this.lblRa.Text = "* Horário FInal:";
             // 
             // txtNumSala
             // 
-            this.txtNumSala.Location = new System.Drawing.Point(257, 83);
+            this.txtNumSala.Location = new System.Drawing.Point(256, 71);
             this.txtNumSala.MaxLength = 10;
             this.txtNumSala.Name = "txtNumSala";
             this.txtNumSala.Size = new System.Drawing.Size(275, 20);
@@ -115,7 +115,7 @@
             // 
             // txtHorarioInicio
             // 
-            this.txtHorarioInicio.Location = new System.Drawing.Point(7, 83);
+            this.txtHorarioInicio.Location = new System.Drawing.Point(6, 71);
             this.txtHorarioInicio.MaxLength = 5;
             this.txtHorarioInicio.Name = "txtHorarioInicio";
             this.txtHorarioInicio.Size = new System.Drawing.Size(119, 20);
@@ -124,24 +124,24 @@
             // lblTelefone
             // 
             this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Location = new System.Drawing.Point(4, 67);
+            this.lblTelefone.Location = new System.Drawing.Point(3, 55);
             this.lblTelefone.Name = "lblTelefone";
             this.lblTelefone.Size = new System.Drawing.Size(81, 13);
             this.lblTelefone.TabIndex = 4;
-            this.lblTelefone.Text = "* Horário Início:";
+            this.lblTelefone.Text = "* Horário Inicial:";
             // 
             // lblEmail
             // 
             this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(254, 67);
+            this.lblEmail.Location = new System.Drawing.Point(253, 55);
             this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(66, 13);
+            this.lblEmail.Size = new System.Drawing.Size(93, 13);
             this.lblEmail.TabIndex = 6;
-            this.lblEmail.Text = "* Num. Sala:";
+            this.lblEmail.Text = "* Número da Sala:";
             // 
             // txtCargaHoraria
             // 
-            this.txtCargaHoraria.Location = new System.Drawing.Point(383, 38);
+            this.txtCargaHoraria.Location = new System.Drawing.Point(383, 32);
             this.txtCargaHoraria.MaxLength = 11;
             this.txtCargaHoraria.Name = "txtCargaHoraria";
             this.txtCargaHoraria.Size = new System.Drawing.Size(148, 20);
@@ -158,7 +158,7 @@
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(112, 38);
+            this.txtNome.Location = new System.Drawing.Point(112, 32);
             this.txtNome.MaxLength = 100;
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(265, 20);
@@ -175,7 +175,7 @@
             // 
             // btnLimpar
             // 
-            this.btnLimpar.Location = new System.Drawing.Point(92, 124);
+            this.btnLimpar.Location = new System.Drawing.Point(87, 116);
             this.btnLimpar.Name = "btnLimpar";
             this.btnLimpar.Size = new System.Drawing.Size(75, 23);
             this.btnLimpar.TabIndex = 24;
@@ -185,7 +185,7 @@
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Location = new System.Drawing.Point(11, 124);
+            this.btnSalvar.Location = new System.Drawing.Point(6, 116);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(75, 23);
             this.btnSalvar.TabIndex = 23;
@@ -196,7 +196,7 @@
             // gbCursos
             // 
             this.gbCursos.Controls.Add(this.dvgCursos);
-            this.gbCursos.Location = new System.Drawing.Point(12, 162);
+            this.gbCursos.Location = new System.Drawing.Point(6, 145);
             this.gbCursos.Name = "gbCursos";
             this.gbCursos.Size = new System.Drawing.Size(538, 180);
             this.gbCursos.TabIndex = 25;
@@ -216,11 +216,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 450);
+            this.ClientSize = new System.Drawing.Size(552, 337);
             this.Controls.Add(this.gbCursos);
             this.Controls.Add(this.gbDadosPessoais);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnSalvar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "CursoFormulario";
             this.Text = "Gerenciar Curso";
             this.gbDadosPessoais.ResumeLayout(false);

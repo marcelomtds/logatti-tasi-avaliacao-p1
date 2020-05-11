@@ -35,3 +35,6 @@ C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Formulario\obj\Debug\Formulario.
 C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Formulario\obj\Debug\Formulario.ProfessorFormulario.resources
 C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Formulario\obj\Debug\Formulario.CursoFormulario.resources
 C:\temp\projetoTasiP1\logatti-tasi-avaliacao-p1\Formulario\obj\Debug\Formulario.CursoProfessorFormulario.resources
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.CursoFormulario.resources
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.CursoProfessorFormulario.resources
+C:\projetos\logatti\csharp\AvaliacaoP1\Formulario\obj\Debug\Formulario.ProfessorFormulario.resources

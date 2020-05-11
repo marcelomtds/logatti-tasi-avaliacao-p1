@@ -32,16 +32,16 @@
             this.lblCurso = new System.Windows.Forms.Label();
             this.cmbCurso = new System.Windows.Forms.ComboBox();
             this.gbCursoProfessor = new System.Windows.Forms.GroupBox();
+            this.dgvCursoProfessor = new System.Windows.Forms.DataGridView();
             this.btnLimpar = new System.Windows.Forms.Button();
             this.btnSalvar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cmbProfessor = new System.Windows.Forms.ComboBox();
             this.gpProfessor = new System.Windows.Forms.GroupBox();
-            this.dgvCursoProfessor = new System.Windows.Forms.DataGridView();
             this.gbCurso.SuspendLayout();
             this.gbCursoProfessor.SuspendLayout();
-            this.gpProfessor.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvCursoProfessor)).BeginInit();
+            this.gpProfessor.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbCurso
@@ -81,6 +81,15 @@
             this.gbCursoProfessor.TabIndex = 19;
             this.gbCursoProfessor.TabStop = false;
             this.gbCursoProfessor.Text = "Cursos / Professores";
+            // 
+            // dgvCursoProfessor
+            // 
+            this.dgvCursoProfessor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvCursoProfessor.Location = new System.Drawing.Point(6, 19);
+            this.dgvCursoProfessor.Name = "dgvCursoProfessor";
+            this.dgvCursoProfessor.Size = new System.Drawing.Size(526, 150);
+            this.dgvCursoProfessor.TabIndex = 0;
+            this.dgvCursoProfessor.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCursoProfessor_CellContentClick);
             // 
             // btnLimpar
             // 
@@ -130,15 +139,6 @@
             this.gpProfessor.TabStop = false;
             this.gpProfessor.Text = "Professor";
             // 
-            // dgvCursoProfessor
-            // 
-            this.dgvCursoProfessor.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvCursoProfessor.Location = new System.Drawing.Point(6, 19);
-            this.dgvCursoProfessor.Name = "dgvCursoProfessor";
-            this.dgvCursoProfessor.Size = new System.Drawing.Size(526, 150);
-            this.dgvCursoProfessor.TabIndex = 0;
-            this.dgvCursoProfessor.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvCursoProfessor_CellContentClick);
-            // 
             // CursoProfessorFormulario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -149,14 +149,17 @@
             this.Controls.Add(this.gbCursoProfessor);
             this.Controls.Add(this.btnLimpar);
             this.Controls.Add(this.btnSalvar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.MaximizeBox = false;
+            this.MinimizeBox = false;
             this.Name = "CursoProfessorFormulario";
             this.Text = "Gerenciar Curso / Professor";
             this.gbCurso.ResumeLayout(false);
             this.gbCurso.PerformLayout();
             this.gbCursoProfessor.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgvCursoProfessor)).EndInit();
             this.gpProfessor.ResumeLayout(false);
             this.gpProfessor.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgvCursoProfessor)).EndInit();
             this.ResumeLayout(false);
 
         }

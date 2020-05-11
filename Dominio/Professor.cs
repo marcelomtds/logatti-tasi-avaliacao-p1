@@ -6,7 +6,7 @@
 
         public override string ToString()
         {
-            return $"{Nome} - CPF:{Cpf} - Tel:{Telefone}";
+            return $"{Nome} - CPF: {Cpf} - Tel: {Telefone}";
         }
     }
 }

@@ -1,13 +1,6 @@
 ﻿using Dominio;
 using Persistencia;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Formulario
@@ -15,13 +8,12 @@ namespace Formulario
     public partial class ProfessorFormulario : Form
     {
         private ProfessorPersistencia professorPersistencia = new ProfessorPersistencia();
-        private CursoPersistencia cursoPersistencia = new CursoPersistencia();
-        
+
         public ProfessorFormulario()
         {
             InitializeComponent();
             AdicionarBotoesAcao();
-            ListarTodos();;
+            ListarTodos(); ;
         }
 
         private void btnSalvar_Click(object sender, EventArgs e)
@@ -82,10 +74,15 @@ namespace Formulario
         {
             dgvProfessores.DataSource = null;
             dgvProfessores.DataSource = professorPersistencia.ListarTodos();
-
-            dgvProfessores.Columns[7].Width = 350;
+            dgvProfessores.Columns[3].DisplayIndex = 2;
+            dgvProfessores.Columns[2].DisplayIndex = 7;
+            dgvProfessores.Columns[7].Width = 180;
             dgvProfessores.Columns[8].Width = 350;
-
+            dgvProfessores.Columns["Id"].HeaderText = "ID";
+            dgvProfessores.Columns["Cpf"].HeaderText = "CPF";
+            dgvProfessores.Columns["Email"].HeaderText = "E-mail";
+            dgvProfessores.Columns["Salario"].HeaderText = "Salário";
+            dgvProfessores.Columns["Endereco"].HeaderText = "Endereço";
         }
 
         private void AdicionarBotoesAcao()
@@ -163,9 +160,23 @@ namespace Formulario
                 }
                 else if (e.ColumnIndex == 1)
                 {
-                    professorPersistencia.Remover(row.Id, row.Endereco.Id);
-                    LimparFormulario();
-                    ListarTodos();
+                    try
+                    {
+                        professorPersistencia.Remover(row.Id, row.Endereco.Id);
+                        LimparFormulario();
+                        ListarTodos();
+                    }
+                    catch (Exception ex)
+                    {
+                        if (ex.ToString().Contains("fk_curso_professor_professor"))
+                        {
+                            MessageBox.Show("Impossível deletar, pois existem cursos ligados a este professor.");
+                        }
+                        else
+                        {
+                            MessageBox.Show($"Ocorreu um erro ao remover o registro. Erro: {ex.Message}");
+                        }
+                    }
                 }
             }
         }

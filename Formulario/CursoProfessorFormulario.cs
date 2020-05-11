@@ -2,12 +2,6 @@
 using Persistencia;
 using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Formulario
@@ -64,7 +58,7 @@ namespace Formulario
                         };
                         Professor professorAlt = new Professor()
                         {
-                        Id = auxIdProfessor,
+                            Id = auxIdProfessor,
                         };
                         CursoProfessor cursoProfessorAlt = new CursoProfessor()
                         {
@@ -81,7 +75,7 @@ namespace Formulario
                 {
                     if (ex.ToString().Contains("pk_curso_professor"))
                     {
-                        MessageBox.Show($"Já existe um professor ministrando esse curso !");
+                        MessageBox.Show($"Já existe um professor ministrando esse curso.");
                     }
                     else
                     {
@@ -100,11 +94,8 @@ namespace Formulario
         {
             dgvCursoProfessor.DataSource = null;
             dgvCursoProfessor.DataSource = cursoProfessorPersistencia.ListarTodos();
-            //dgvAlunos.Columns[4].DisplayIndex = 2;
-            //dgvAlunos.Columns[3].DisplayIndex = 9;
-            //dgvAlunos.Columns[8].Width = 180;
-            //dgvAlunos.Columns[9].Width = 350;
-            //dgvAlunos.Columns[6].Width = 180;
+            dgvCursoProfessor.Columns[2].Width = 350;
+            dgvCursoProfessor.Columns[3].Width = 350;
         }
 
         private void AdicionarBotoesAcao()
@@ -156,7 +147,7 @@ namespace Formulario
             List<Professor> professores = professorPersistencia.ListarTodos();
             professores.ForEach(it =>
             {
-                it.Nome = it.Nome + " -  CPF:" + it.Cpf + " - Tel:" + it.Telefone;
+                it.Nome = it.ToString();
             });
             cmbProfessor.DataSource = professores;
             cmbProfessor.DisplayMember = "Nome";
@@ -174,8 +165,6 @@ namespace Formulario
                     CursoProfessor cursoProfessor = cursoProfessorPersistencia.BuscarPorId(row.Curso.Id, row.Professor.Id);
                     cmbCurso.SelectedValue = cursoProfessor.Curso.Id;
                     cmbProfessor.SelectedValue = cursoProfessor.Professor.Id;
-
-                    // para saber qual as chaves da tabela antes da alteração
                     auxIdCurso = cursoProfessor.Curso.Id;
                     auxIdProfessor = cursoProfessor.Professor.Id;
 

@@ -1,13 +1,6 @@
 ﻿using Dominio;
 using Persistencia;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Formulario
@@ -30,7 +23,6 @@ namespace Formulario
             }
             else
             {
-                
                 Curso curso = new Curso()
                 {
                     Nome = txtNome.Text,
@@ -63,8 +55,13 @@ namespace Formulario
         {
             dvgCursos.DataSource = null;
             dvgCursos.DataSource = cursoPersistencia.ListarTodos();
-
-            dvgCursos.Columns[3].Width = 350;
+            dvgCursos.Columns[3].Width = 180;
+            dvgCursos.Columns[7].Width = 150;
+            dvgCursos.Columns["Id"].HeaderText = "ID";
+            dvgCursos.Columns["CargaHoraria"].HeaderText = "Carga Horária";
+            dvgCursos.Columns["HoraInicio"].HeaderText = "Horário Inicial";
+            dvgCursos.Columns["HoraFim"].HeaderText = "Horário Final";
+            dvgCursos.Columns["NumeroSala"].HeaderText = "Número da Sala";
         }
 
         private void AdicionarBotoesAcao()
@@ -138,13 +135,12 @@ namespace Formulario
                     {
                         if (ex.ToString().Contains("fk_aluno_curso"))
                         {
-                            MessageBox.Show($"Impossível deletar, pois existem alunos ligados a este curso");
+                            MessageBox.Show($"Impossível deletar, pois existem alunos ligados a este curso.");
                         }
                         else
                         {
-                            MessageBox.Show($"Ocorreu um erro ao salvar o registro. Erro: {ex.Message}");
+                            MessageBox.Show($"Ocorreu um erro ao remover o registro. Erro: {ex.Message}");
                         }
-
                     }
                 }
             }

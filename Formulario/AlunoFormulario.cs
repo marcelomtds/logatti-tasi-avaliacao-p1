@@ -86,6 +86,12 @@ namespace Formulario
             dgvAlunos.Columns[8].Width = 180;
             dgvAlunos.Columns[9].Width = 350;
             dgvAlunos.Columns[6].Width = 180;
+            dgvAlunos.Columns[3].Width = 350;
+            dgvAlunos.Columns["Id"].HeaderText = "ID";
+            dgvAlunos.Columns["Ra"].HeaderText = "RA";
+            dgvAlunos.Columns["Cpf"].HeaderText = "CPF";
+            dgvAlunos.Columns["Email"].HeaderText = "E-mail";
+            dgvAlunos.Columns["Endereco"].HeaderText = "Endereço";
         }
 
         private void AdicionarBotoesAcao()
